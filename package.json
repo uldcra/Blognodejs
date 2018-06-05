@@ -1,0 +1,22 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "Mi blog en nodejs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "Juan Carlos",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^2.0.1",
+        "body-parser": "^1.18.3",
+        "connect-multiparty": "^2.1.0",
+        "express": "^4.16.3",
+        "jsonwebtoken": "^8.2.1",
+        "moment": "^2.22.1",
+        "mongoose": "^5.1.1",
+        "nodemon": "^1.17.5"
+    }
+}
